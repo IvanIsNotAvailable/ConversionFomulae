@@ -163,5 +163,5 @@ def mass(type:None,num,default='uk'):
 
 
 
-if name == '__main__':
+if __name__ == '__main__':
     print(volume_capacity('gallon_litre',1))
