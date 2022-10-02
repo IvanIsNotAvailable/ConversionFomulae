@@ -1,5 +1,6 @@
-import math
-from unicodedata import name
+# hello these fuction can do the non-metric to metric or metric to non-metric
+# You just need to type ( inches to millimetres ) : in_mm  just type short symbols
+# Some case you need to type the full unit name ex. mile,yard,acre,quart,gallon,hectare
 
 def linear(type:None,num):
     if type == None:
@@ -57,7 +58,7 @@ def area(type:None,num):
         return num*2.58999
     elif type == "mile_hectare":
         return num*258.999
-    elif type == "acre_metre":
+    elif type == "acre_m":
         return num*4046.856
     elif type == "acre_hecare":
         return num*0.40469
